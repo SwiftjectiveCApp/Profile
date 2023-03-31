@@ -13,8 +13,8 @@ let package = Package(
             targets: ["Profile"]),
     ],
     dependencies: [
-        .package(name: "Models", path: "../Models"),
-        .package(name: "Networking", path: "../Networking")
+        .package(url: "https://github.com/SwiftjectiveCApp/Models", from: "1.0.0"),
+        .package(url: "https://github.com/SwiftjectiveCApp/Networking", from: "1.0.0")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
